@@ -37,6 +37,21 @@ function App() {
       alert("hamma ma'lumotlarni to'ldir");
       return;
     }
+    if (!formData.phoneNumber || formData.phoneNumber.length < 10) {
+      alert('Telefon raqami toliq va togri bolishi kerak');
+    }
+    if (formData.companyName.trim().length < 3) {
+      alert('Kompaniya nomi kamida 3 ta harfdan iborat bolishi kerak');
+    }
+    if (!formData.place.trim()) {
+      alert('Yashash joyini kirit');
+    }
+    if (!formData.employees || formData.employees <= 0) {
+      alert('Hodimlar soni musbat raqam bolishi kerak');
+    }
+ if (formData.comment.lenght < 3) {
+  alert("izohni kirit")
+ }
     setSubmitted(true);
   };
   return (
