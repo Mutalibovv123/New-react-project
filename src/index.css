@@ -31,5 +31,47 @@
     .city {
         flex-direction: column;
     }
+    .header{
+        background-color: blue;
+      
+        margin-bottom: 60px;
+    }
+    .nav-list {
+        display: flex;
+        align-items: center;
+        gap: 48px;
+    }
+    li {
+        color: white;
+    }
+    .container {
+        width: 1140px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .boshlash {
+        width: 113px;
+        height: 25px;
+        background-color: white;
+        padding-top: 13px;
+        padding-bottom: 30px;
+        padding-right: 24px;
+        padding-left: 24px;
+        border: 1px solid white;
+        border-radius: 12px;
+        font-family: Circular Std;
+        color: blue;
+font-size: 16px;
+font-weight: 500;
+line-height: 20.24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+    }
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
     }
 

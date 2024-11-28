@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import CircleImg from "../public/circle.png"; 
 import Earth from "../public/earth.svg";   
+import Logo from "../public/logo.svg"
+
 
 function App() {
 
@@ -56,6 +58,23 @@ function App() {
   };
   return (
     <>
+    <header className="header">
+ <div className="container header-container">
+ <div className="right"><img src={Logo} width={74} height={30}  alt="" /></div>
+      <div className="center">
+        <ul className="nav-list">
+          <li className="nav-item">Vakansiyalar</li>
+          <li className="nav-item">Kandidatlar</li>
+          <li className="nav-item">Kompaniyalar</li>
+          <li className="nav-item">Xizmatlar</li>
+          <li className="nav-item">Ta'lim</li>
+        </ul>
+      </div>
+      <div className="left">  
+    <button className='boshlash'>Boshlash</button>
+      </div>
+ </div>
+    </header>
       <div className="bg-white rounded-lg shadow-md p-[23px]">
         <div className="mb-5">
           <h1 className="font-bold mb-5 text-2xl">Kompaniya ma'lumotlari</h1>
